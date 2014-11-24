@@ -58,6 +58,62 @@ namespace Mandrill
     }
 
     /// <summary>
+    /// Details about opens tracked by mandrill
+    /// </summary>
+    public class OpenDetail
+    {
+        #region Public Properties
+        /// <summary>
+        ///     Gets or sets the ts.
+        /// </summary>
+        public string ts { get; set; }
+        /// <summary>
+        ///     Gets or sets the ip.
+        /// </summary>
+        public string ip { get; set; }
+        /// <summary>
+        ///     Gets or sets the location.
+        /// </summary>
+        public string location { get; set; }
+        /// <summary>
+        ///     Gets or sets the ua.
+        /// </summary>
+        public string ua { get; set; }
+
+        #endregion
+    }
+
+    /// <summary>
+    /// Details about clicks tracked by mandrill
+    /// </summary>
+    public class ClickDetail
+    {
+        #region Public Properties
+        /// <summary>
+        ///     Gets or sets the ts.
+        /// </summary>
+        public string ts { get; set; }
+        /// <summary>
+        ///     Gets or sets the url.
+        /// </summary>
+        public string url { get; set; }
+        /// <summary>
+        ///     Gets or sets the ip.
+        /// </summary>
+        public string ip { get; set; }
+        /// <summary>
+        ///     Gets or sets the location.
+        /// </summary>
+        public string location { get; set; }
+        /// <summary>
+        ///     Gets or sets the ua.
+        /// </summary>
+        public string ua { get; set; }
+
+        #endregion
+    }
+
+    /// <summary>
     ///     The search result.
     /// </summary>
     public class SearchResult
@@ -80,6 +136,11 @@ namespace Mandrill
         public int clicks { get; set; }
 
         /// <summary>
+        ///     Gets or sets the clicks_detail.
+        /// </summary>
+        public IEnumerable<ClickDetail> clicks_detail { get; set; }
+
+        /// <summary>
         ///     Gets or sets the diag.
         /// </summary>
         public string diag { get; set; }
@@ -98,6 +159,11 @@ namespace Mandrill
         ///     Gets or sets the opens.
         /// </summary>
         public int opens { get; set; }
+
+        /// <summary>
+        ///     Gets or sets the opens_detail.
+        /// </summary>
+        public IEnumerable<OpenDetail> opens_detail { get; set; }
 
         /// <summary>
         ///     Gets or sets the sender.

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ACA85DEE-F68F-45DD-9435-14755FFBFDC9}"
 EndProject
@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{67E7
 		scripts\TokenizeConfiguration.ps1 = scripts\TokenizeConfiguration.ps1
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Packager", "NuGet.Packager\NuGet.Packager.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,12 +46,17 @@ Global
 		{0563EE3C-A65E-4D55-9302-7663C0FE77F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0563EE3C-A65E-4D55-9302-7663C0FE77F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0563EE3C-A65E-4D55-9302-7663C0FE77F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0563EE3C-A65E-4D55-9302-7663C0FE77F7} = {ACA85DEE-F68F-45DD-9435-14755FFBFDC9}
 		{0675EF0D-79F9-473A-ABF4-B2F1B22843C9} = {EF2B1A8B-ED3A-45DB-AA2D-432CB44049B0}
+		{0563EE3C-A65E-4D55-9302-7663C0FE77F7} = {ACA85DEE-F68F-45DD-9435-14755FFBFDC9}
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389} = {96D95B6A-9FB1-40B3-949B-0B9D1D6BF429}
 	EndGlobalSection
 EndGlobal

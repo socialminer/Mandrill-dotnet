@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Mandrill</id>
+    <version>1.0.91</version>
+    <title>Mandrill</title>
+    <authors>Social Miner</authors>
+    <owners></owners>
+    <description>
+      Mandrill .Net is a quick and easy wrapper for getting started with the mandrill API.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Mandrill .Net is a quick and easy wrapper for getting started with the mandrill API.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/socialminer/Mandrill-dotnet</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2014</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="Newtonsoft.Json" version="6.0.1"/>
+          <dependency id="RestSharp" version="104.4.0"/>          
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="..\src\Mandrill\bin\Release\*.dll" target="lib\net45"></file>
+  </files>
+</package>
