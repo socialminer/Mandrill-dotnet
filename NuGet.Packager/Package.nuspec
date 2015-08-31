@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Mandrill</id>
-    <version>1.0.91</version>
+    <version>1.0.92</version>
     <title>Mandrill</title>
     <authors>Social Miner</authors>
     <owners></owners>
@@ -22,14 +22,14 @@
     <copyright>Copyright  2014</copyright>
     <dependencies>
         <group targetFramework="net40">
-          <dependency id="Newtonsoft.Json" version="6.0.1"/>
-          <dependency id="RestSharp" version="104.4.0"/>          
+          <dependency id="Newtonsoft.Json"/>
+          <dependency id="RestSharp"/>          
         </group>
     </dependencies>
     <references></references>
     <tags></tags>
   </metadata>
   <files>
-    <file src="..\src\Mandrill\bin\Release\*.dll" target="lib\net45"></file>
+    <file src="..\src\Mandrill\bin\Release\Mandrill*.dll" target="lib\net45"></file>
   </files>
 </package>
